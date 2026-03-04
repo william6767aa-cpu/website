@@ -26,7 +26,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="col-span-2 md:col-span-4 lg:col-span-1">
             <Link to="/" className="inline-block mb-4">
-              <span className="text-2xl font-bold">SMART</span>
+              <img src="/logo.png" alt="WhaleScreens" className="h-8" />
             </Link>
             <p className="text-gray-400 text-sm">
               Interactive displays and collaboration software
@@ -35,7 +35,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold mb-4 text-gray-300">Connect with SMART</h4>
+            <h4 className="font-semibold mb-4 text-gray-300">Connect with WhaleScreens</h4>
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.label}>
@@ -91,7 +91,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-gray-400 text-sm text-center md:text-left">
-              © 2026 SMART Technologies ULC - all rights reserved
+              © 2026 WhaleScreens - all rights reserved
             </p>
             <nav className="flex flex-wrap justify-center gap-4">
               {footerLinks.legal.map((link) => (

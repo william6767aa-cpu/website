@@ -8,13 +8,13 @@ const resourceCategories = [
   {
     icon: BookOpen,
     title: 'Documentation',
-    description: 'User guides, manuals, and technical documentation for all SMART products.',
+    description: 'User guides, manuals, and technical documentation for all WhaleScreens products.',
     items: ['Product Manuals', 'Quick Start Guides', 'Technical Specifications', 'Warranty Information'],
   },
   {
     icon: Video,
     title: 'Video Tutorials',
-    description: 'Learn how to get the most out of your SMART products with video guides.',
+    description: 'Learn how to get the most out of your WhaleScreens products with video guides.',
     items: ['Getting Started', 'Advanced Features', 'Tips & Tricks', 'Webinar Recordings'],
   },
   {
@@ -26,8 +26,8 @@ const resourceCategories = [
   {
     icon: Download,
     title: 'Downloads',
-    description: 'Software, drivers, and firmware updates for your SMART devices.',
-    items: ['SMART Notebook', 'Lumio', 'Drivers & Firmware', 'Mobile Apps'],
+    description: 'Software, drivers, and firmware updates for your WhaleScreens devices.',
+    items: ['WhaleNote', 'WhaleBoard', 'Drivers & Firmware', 'Mobile Apps'],
   },
   {
     icon: HelpCircle,
@@ -38,7 +38,7 @@ const resourceCategories = [
   {
     icon: FileText,
     title: 'Case Studies',
-    description: 'See how organizations are using SMART technology to achieve their goals.',
+    description: 'See how organizations are using WhaleScreens technology to achieve their goals.',
     items: ['Education Success Stories', 'Business Case Studies', 'Government Deployments', 'ROI Reports'],
   },
 ];
@@ -58,7 +58,7 @@ export default function Resources() {
                 Resources
               </h1>
               <p className="text-xl text-white/90 leading-relaxed mb-8">
-                Everything you need to get the most out of your SMART products, 
+                Everything you need to get the most out of your WhaleScreens products, 
                 from documentation to training and support.
               </p>
               <div className="relative">
@@ -115,10 +115,10 @@ export default function Resources() {
                     Featured Resource
                   </span>
                   <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mt-2 mb-4">
-                    Getting Started with SMART Interactive Displays
+                    Getting Started with WhaleScreens Interactive Displays
                   </h2>
                   <p className="text-gray-600 mb-6">
-                    A comprehensive guide to setting up and using your new SMART interactive display. 
+                    A comprehensive guide to setting up and using your new WhaleScreens interactive display. 
                     Learn the basics and discover advanced features to maximize your investment.
                   </p>
                   <ul className="space-y-2 mb-8">

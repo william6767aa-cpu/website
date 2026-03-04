@@ -7,7 +7,7 @@ export default function InfoBar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-gray-700 text-center sm:text-left text-base sm:text-lg">
-            We're different from the rest. Learn how choosing SMART gives you the best in interactive technology and so much more.
+            We're different from the rest. Learn how choosing WhaleScreens gives you the best in interactive technology and so much more.
           </p>
           <Link 
             to="/about"

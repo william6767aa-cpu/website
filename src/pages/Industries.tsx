@@ -57,7 +57,7 @@ export default function Industries() {
                 Industries
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed mb-8">
-                Discover how SMART technology is transforming organizations across every industry.
+                Discover how WhaleScreens technology is transforming organizations across every industry.
               </p>
             </div>
           </div>

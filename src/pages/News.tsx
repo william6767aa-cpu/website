@@ -6,17 +6,17 @@ import { Button } from '@/components/ui/button';
 
 const newsArticles = [
   {
-    title: 'SMART Unveils Next-Generation AI-Powered Interactive Displays',
+    title: 'WhaleScreens Unveils Next-Generation AI-Powered Interactive Displays',
     excerpt: 'New RX Series features advanced AI capabilities for enhanced collaboration and productivity in modern workplaces.',
     date: 'February 15, 2025',
-    author: 'SMART Communications',
+    author: 'WhaleScreens Communications',
     category: 'Product News',
     image: '/product-display.jpg',
     featured: true,
   },
   {
-    title: 'SMART Reaches 3 Million Classrooms Worldwide',
-    excerpt: 'Milestone achievement underscores SMART\'s commitment to transforming education through technology.',
+    title: 'WhaleScreens Reaches 500,000 Classrooms Worldwide',
+    excerpt: 'Milestone achievement underscores WhaleScreens\' commitment to transforming education through technology.',
     date: 'January 28, 2025',
     author: 'Sarah Johnson',
     category: 'Company News',
@@ -24,7 +24,7 @@ const newsArticles = [
     featured: false,
   },
   {
-    title: 'New Partnership Expands SMART\'s Government Offerings',
+    title: 'New Partnership Expands WhaleScreens\' Government Offerings',
     excerpt: 'Strategic alliance brings enhanced security features and compliance certifications to public sector customers.',
     date: 'January 15, 2025',
     author: 'Michael Chen',
@@ -33,7 +33,7 @@ const newsArticles = [
     featured: false,
   },
   {
-    title: 'Lumio Platform Reaches 10 Million Users',
+    title: 'WhaleBoard Platform Reaches 2 Million Users',
     excerpt: 'Digital learning platform continues rapid growth as educators embrace hybrid learning solutions.',
     date: 'December 20, 2024',
     author: 'Emily Rodriguez',
@@ -42,17 +42,17 @@ const newsArticles = [
     featured: false,
   },
   {
-    title: 'SMART Wins Education Technology Award',
+    title: 'WhaleScreens Wins Education Technology Award',
     excerpt: 'Company recognized for innovation in classroom technology at annual EdTech Summit.',
     date: 'December 10, 2024',
-    author: 'SMART Communications',
+    author: 'WhaleScreens Communications',
     category: 'Awards',
     image: '/about-hero.jpg',
     featured: false,
   },
   {
     title: '2025 Predictions: The Future of Workplace Collaboration',
-    excerpt: 'SMART executives share insights on emerging trends in interactive technology and hybrid work.',
+    excerpt: 'WhaleScreens executives share insights on emerging trends in interactive technology and hybrid work.',
     date: 'December 5, 2024',
     author: 'David Park',
     category: 'Insights',

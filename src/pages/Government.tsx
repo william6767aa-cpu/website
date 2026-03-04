@@ -57,7 +57,7 @@ export default function Government() {
           <div className="absolute inset-0">
             <img
               src="/government-hero.jpg"
-              alt="SMART for Government"
+              alt="WhaleScreens for Government"
               className="w-full h-full object-cover opacity-50"
             />
           </div>
@@ -93,7 +93,7 @@ export default function Government() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-                Why SMART for Government?
+                Why WhaleScreens for Government?
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                 Trusted technology that meets the unique needs of public sector organizations.

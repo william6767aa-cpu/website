@@ -14,7 +14,7 @@ const benefits = [
   },
   {
     icon: Award,
-    title: '#WeAreSMART',
+    title: '#WeAreWhaleScreens',
     description: '#ConnectionsThatMatter',
   },
 ];
@@ -29,13 +29,13 @@ export default function PartnerSection() {
             A partner in your success
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            It's true, we make products that take your collaboration and engagement to the next level. But we're more than a stellar product. When you choose SMART, you get a partner committed to your success. Here's how.
+            It's true, we make products that take your collaboration and engagement to the next level. But we're more than a stellar product. When you choose WhaleScreens, you get a partner committed to your success. Here's how.
           </p>
           <Link 
             to="/about"
             className="inline-flex items-center gap-2 text-[#6b4c9a] hover:text-[#5a3f82] font-medium mt-4 transition-colors duration-200"
           >
-            Why SMART?
+            Why WhaleScreens?
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
@@ -71,7 +71,7 @@ export default function PartnerSection() {
                 A trusted partner every step of the way
               </h3>
               <p className="text-gray-600 mb-6">
-                When you choose to sell SMART products, you're backed by a highly-rated brand, world-class support and education expertise.
+                When you choose to sell WhaleScreens products, you're backed by a highly-rated brand, world-class support and education expertise.
               </p>
               <div className="space-y-3">
                 <a 
@@ -82,11 +82,11 @@ export default function PartnerSection() {
                   Ready to learn more?
                 </a>
                 <p className="text-gray-600 pl-7">
-                  Discover the benefits of being a SMART Partner
+                  Discover the benefits of being a WhaleScreens Partner
                 </p>
               </div>
               <div className="mt-6 pt-6 border-t border-gray-200">
-                <p className="text-gray-600 mb-2">Already a SMART Partner?</p>
+                <p className="text-gray-600 mb-2">Already a WhaleScreens Partner?</p>
                 <a 
                   href="#partner-login"
                   className="text-[#6b4c9a] hover:text-[#5a3f82] font-medium transition-colors duration-200"
@@ -97,19 +97,19 @@ export default function PartnerSection() {
             </div>
             <div className="bg-gradient-to-br from-[#6b4c9a] to-[#8b6cb9] rounded-xl p-8 text-white text-center">
               <h4 className="text-xl font-semibold mb-4">
-                Choose your SMART.
+                Choose your WhaleScreens.
               </h4>
               <p className="text-white/90 mb-6">
-                Explore the products, opportunities, and one-of-a-kind features that make SMART the industry-leading choice for collaborative technology.
+                Explore the products, opportunities, and one-of-a-kind features that make WhaleScreens the industry-leading choice for collaborative technology.
               </p>
               <p className="text-white/80 text-sm mb-6">
-                Choose your path and start tailoring a SMART lineup to meet your team's needs.
+                Choose your path and start tailoring a WhaleScreens lineup to meet your team's needs.
               </p>
               <Link 
                 to="/products"
                 className="inline-flex items-center justify-center px-6 py-3 bg-white text-[#6b4c9a] rounded-full font-medium hover:bg-gray-100 transition-colors duration-200"
               >
-                Explore SMART solutions
+                Explore WhaleScreens solutions
               </Link>
             </div>
           </div>

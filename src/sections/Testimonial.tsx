@@ -10,7 +10,7 @@ export default function Testimonial() {
           
           {/* Quote Text */}
           <blockquote className="text-xl sm:text-2xl lg:text-3xl text-gray-800 leading-relaxed mb-8 font-light italic">
-            "It's the support from SMART. You guys are one of the best vendors that we have when it comes to support. We can always count on you to be there for us. Easy to work with. You keep us informed on a regular basis. The information available to us online even is incredible. I mean, we don't have a vendor that even comes close with that level of support your library support is just whether it's your people or whether it's your lot online information. Bar none the best of all our vendors."
+            "It's the support from WhaleScreens. You guys are one of the best vendors that we have when it comes to support. We can always count on you to be there for us. Easy to work with. You keep us informed on a regular basis. The information available to us online even is incredible. I mean, we don't have a vendor that even comes close with that level of support your library support is just whether it's your people or whether it's your lot online information. Bar none the best of all our vendors."
           </blockquote>
           
           {/* Author */}

@@ -6,21 +6,21 @@ import { Button } from '@/components/ui/button';
 
 const products = [
   {
-    name: 'SMART Board MX Series',
+    name: 'WhaleScreen MX Series',
     category: 'Interactive Displays',
     description: 'Essential interactive display for classrooms and meeting rooms. Available in 55", 65", 75", and 86".',
     features: ['4K Ultra HD resolution', '20-point multi-touch', 'Built-in Android', 'Wireless screen sharing'],
     image: '/product-display.jpg',
   },
   {
-    name: 'SMART Board GX Series',
+    name: 'WhaleScreen GX Series',
     category: 'Interactive Displays',
     description: 'Premium interactive display with advanced collaboration features. Available in 65", 75", and 86".',
     features: ['4K Ultra HD resolution', '40-point multi-touch', 'iQ Android computing', 'Advanced annotation tools'],
     image: '/business-solution.jpg',
   },
   {
-    name: 'SMART Board RX Series',
+    name: 'WhaleScreen RX Series',
     category: 'Interactive Displays',
     description: 'Flagship interactive display with cutting-edge technology. Available in 75" and 86".',
     features: ['8K resolution ready', 'SilkTouch technology', 'AI-powered features', 'Enterprise security'],
@@ -30,17 +30,17 @@ const products = [
 
 const software = [
   {
-    name: 'Lumio',
+    name: 'WhaleBoard',
     description: 'Digital learning platform that transforms lessons into active, collaborative experiences.',
     icon: Sparkles,
   },
   {
-    name: 'SMART Notebook',
+    name: 'WhaleNote',
     description: 'The world\'s most popular collaborative learning software.',
     icon: PenTool,
   },
   {
-    name: 'SMART Mirror',
+    name: 'WhaleCast',
     description: 'Wireless screen sharing for any device, any platform.',
     icon: Wifi,
   },

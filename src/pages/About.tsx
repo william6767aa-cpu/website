@@ -27,12 +27,12 @@ const values = [
 ];
 
 const milestones = [
-  { year: '1987', event: 'SMART founded in Calgary, Canada' },
-  { year: '1991', event: 'First interactive whiteboard introduced' },
-  { year: '2000', event: 'Expanded to global markets' },
-  { year: '2010', event: 'Launched SMART Notebook software' },
-  { year: '2020', event: 'Introduced Lumio digital learning platform' },
-  { year: '2024', event: 'Leading innovation in AI-powered collaboration' },
+  { year: '2015', event: 'WhaleScreens founded in Shenzhen, China' },
+  { year: '2017', event: 'First interactive display launched' },
+  { year: '2019', event: 'Expanded to Asian markets' },
+  { year: '2021', event: 'Launched WhaleBoard software' },
+  { year: '2023', event: 'Introduced cloud collaboration platform' },
+  { year: '2025', event: 'Leading innovation in AI-powered displays' },
 ];
 
 export default function About() {
@@ -47,14 +47,14 @@ export default function About() {
           <div className="absolute inset-0">
             <img
               src="/about-hero.jpg"
-              alt="SMART Technologies Office"
+              alt="WhaleScreens Office"
               className="w-full h-full object-cover opacity-40"
             />
           </div>
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-2xl">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-                About SMART
+                About WhaleScreens
               </h1>
               <p className="text-xl text-gray-200 leading-relaxed">
                 For over 35 years, we've been at the forefront of interactive technology, 
@@ -73,7 +73,7 @@ export default function About() {
                   Our Story
                 </h2>
                 <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                  SMART Technologies was founded in 1987 with a simple but powerful idea: 
+                  WhaleScreens was founded in 2015 with a simple but powerful idea: 
                   to make collaboration easier and more effective through technology. 
                   What started as a small team in Calgary, Canada, has grown into a 
                   global leader in interactive displays and collaboration software.

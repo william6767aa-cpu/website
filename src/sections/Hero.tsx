@@ -52,7 +52,7 @@ export default function Hero() {
                   variant="outline"
                   className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-gray-900 px-8 py-6 rounded-full text-lg font-medium transition-all duration-300"
                 >
-                  Explore SMART solutions
+                  Explore WhaleScreens solutions
                 </Button>
               </Link>
             </div>

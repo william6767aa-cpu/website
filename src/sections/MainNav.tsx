@@ -4,7 +4,7 @@ import { Search, ChevronDown, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const navItems = [
-  { label: 'About SMART', href: '/about', hasDropdown: true },
+  { label: 'About Us', href: '/about', hasDropdown: true },
   { label: 'Industries', href: '/industries', hasDropdown: true },
   { label: 'Products', href: '/products', hasDropdown: true },
   { label: 'Resources', href: '/resources', hasDropdown: true },
@@ -20,7 +20,7 @@ export default function MainNav() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
-            <span className="text-2xl font-bold tracking-tight">SMART</span>
+            <img src="/logo.png" alt="WhaleScreens" className="h-10" />
           </Link>
 
           {/* Desktop Navigation */}

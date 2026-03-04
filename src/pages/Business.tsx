@@ -57,7 +57,7 @@ export default function Business() {
           <div className="absolute inset-0">
             <img
               src="/business-hero.jpg"
-              alt="SMART for Business"
+              alt="WhaleScreens for Business"
               className="w-full h-full object-cover opacity-50"
             />
           </div>
@@ -93,7 +93,7 @@ export default function Business() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-                Why SMART for Business?
+                Why WhaleScreens for Business?
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                 Empower your teams with technology that drives results.
@@ -150,7 +150,7 @@ export default function Business() {
                     See the ROI
                   </h2>
                   <p className="text-gray-300 mb-6">
-                    Companies using SMART technology report significant improvements in meeting 
+                    Companies using WhaleScreens technology report significant improvements in meeting 
                     efficiency, team collaboration, and overall productivity.
                   </p>
                   <div className="grid grid-cols-2 gap-6">
@@ -189,7 +189,7 @@ export default function Business() {
               Ready to Transform Your Workplace?
             </h2>
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-              Schedule a personalized demo to see how SMART can help your business.
+              Schedule a personalized demo to see how WhaleScreens can help your business.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button className="bg-white text-[#6b4c9a] hover:bg-gray-100 px-8 py-6 rounded-full text-lg font-medium">

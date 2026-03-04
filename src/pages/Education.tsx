@@ -57,7 +57,7 @@ export default function Education() {
           <div className="absolute inset-0">
             <img
               src="/education-hero.jpg"
-              alt="SMART in Education"
+              alt="WhaleScreens in Education"
               className="w-full h-full object-cover opacity-50"
             />
           </div>
@@ -93,7 +93,7 @@ export default function Education() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-                Why Choose SMART for Education?
+                Why Choose WhaleScreens for Education?
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                 Discover how our technology transforms teaching and learning.
@@ -144,7 +144,7 @@ export default function Education() {
         <section className="py-16 lg:py-24">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <blockquote className="text-2xl sm:text-3xl text-gray-800 italic mb-6">
-              "SMART technology has completely transformed how we teach. Students are more engaged, 
+              "WhaleScreens technology has completely transformed how we teach. Students are more engaged, 
               collaboration has increased, and learning outcomes have improved dramatically."
             </blockquote>
             <div>

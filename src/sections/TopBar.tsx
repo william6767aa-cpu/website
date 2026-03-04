@@ -31,7 +31,7 @@ export default function TopBar() {
           {/* Right side navigation */}
           <div className="flex items-center space-x-6">
             <a 
-              href="https://support.smarttech.com" 
+              href="https://support.whalescreens.com" 
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1 hover:text-gray-300 transition-colors duration-200"
