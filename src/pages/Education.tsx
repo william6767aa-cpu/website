@@ -21,7 +21,7 @@ const benefits = [
     description: 'Visual, auditory, and kinesthetic learners all benefit from interactive technology.',
   },
   {
-    icon: Star,
+    icon: BookOpen,
     title: 'Improve Learning Outcomes',
     description: 'Research shows interactive technology leads to better retention and understanding.',
   },
