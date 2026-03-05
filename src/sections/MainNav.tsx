@@ -4,7 +4,16 @@ import { Search, ChevronDown, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const navItems = [
-  { label: 'Industries', href: '/industries', hasDropdown: true },
+  { 
+    label: 'Industries', 
+    href: '/industries', 
+    hasDropdown: true,
+    subMenu: [
+      { label: 'Education', href: '/education' },
+      { label: 'Business', href: '/business' },
+      { label: 'Government', href: '/government' },
+    ]
+  },
   { label: 'Products', href: '/products', hasDropdown: true },
   { label: 'About Us', href: '/about', hasDropdown: true },
   { label: 'News', href: '/news', hasDropdown: false },
