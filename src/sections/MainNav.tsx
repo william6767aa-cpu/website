@@ -34,15 +34,31 @@ export default function MainNav() {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
             {navItems.map((item) => (
-              <Link
-                key={item.label}
-                to={item.href}
-                className="flex items-center gap-1 text-gray-700 hover:text-[#6b4c9a] transition-colors duration-200 font-medium"
-              >
-                {item.label}
-                {item.hasDropdown && <ChevronDown className="w-4 h-4" />}
-              </Link>
-            ))}
+  <div key={item.label} className="relative group"> {/* 添加 group 类用于悬停控制 */}
+    <Link
+      to={item.href}
+      className="flex items-center gap-1 text-gray-700 hover:text-[#6b4c9a] transition-colors duration-200 font-medium py-4"
+    >
+      {item.label}
+      {item.hasDropdown && <ChevronDown className="w-4 h-4" />}
+    </Link>
+
+    {/* 添加以下下拉列表渲染代码 */}
+    {item.subMenu && (
+      <div className="absolute left-0 w-48 bg-white border border-gray-100 shadow-lg rounded-md py-2 hidden group-hover:block">
+        {item.subMenu.map((sub) => (
+          <Link
+            key={sub.label}
+            to={sub.href}
+            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#6b4c9a]"
+          >
+            {sub.label}
+          </Link>
+        ))}
+      </div>
+    )}
+  </div>
+))}
           </nav>
 
           {/* Right side actions */}
